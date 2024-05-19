@@ -1,4 +1,5 @@
-import Yuta from "./components/Yuta";
+// import Yuta from "./components/Yuta";
+import fruits_list from "./components/fruits_list";
 /*function MyButton(){
   return (
     <button>Hello</button>
@@ -14,4 +15,4 @@ function MyApp(){
   );
 }*/
 
-export default Yuta;
+export default fruits_list;
