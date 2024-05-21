@@ -1,13 +1,12 @@
-import { useState } from "react";
+interface Props{
+    count: number;
+    onClick: ()=>void;
+}
 
-const timer = ()=>{
-    const [Count,setCount] = useState(0);
-    function onclick(){
-        setCount(Count+1);
-    }
+function Timer({ count, onClick }: Props) {
     return (
-        <button onClick={onclick}>Click Me {Count}</button>
-    )
-};
+      <button onClick={onClick}>Click Me {count}</button>
+    );
+}
 
-export default timer;
+export default Timer;
